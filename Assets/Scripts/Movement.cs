@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
     }
 
     private void Update() {
-        if  (Input.GetKeyDown(KeyCode.Space)) { // Check if the Escape key is pressed
+        if  (Input.GetKeyDown(KeyCode.Space)) { // Check if the space key is pressed
             if (sceneLoader != null) {  
                 sceneLoader.SceneChange("MainScene"); // Load the main menu scene
             }
